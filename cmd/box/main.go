@@ -67,7 +67,7 @@ func main() {
 	)
 
 	if steamOption == "ALLTIME" {
-		filename = "🎮 Steam playtime leaderboard"
+		filename = "🎮 Steam Playtime Leaderboard"
 		lines, err = box.GetPlayTime(ctx, steamID, multiLined, appIDList...)
 		if err != nil {
 			panic("GetPlayTime err:" + err.Error())
